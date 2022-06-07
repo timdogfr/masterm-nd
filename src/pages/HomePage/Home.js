@@ -145,7 +145,7 @@ function Home() {
 
   const getDataWithAlchemy = async () => {
     const web3 = createAlchemyWeb3(
-      "https://eth-rinkeby.alchemyapi.io/v2/plu1GBcPST6sjcu5SVXfmZD2x_xLH68s"
+      "https://eth-mainnet.alchemyapi.io/v2/plu1GBcPST6sjcu5SVXfmZD2x_xLH68s"
     );
     const abiResponse = await fetch("/config/abi.json", {
       headers: {
@@ -156,7 +156,7 @@ function Home() {
     const abi = await abiResponse.json();
     var contract = new Contract(
       abi,
-      "0x8ddfB8AE536dA9d8565F9a2E1136724505800993"
+      "0x713B0e5EC5554443E432D1BB84fdEA1153BD887d"
     );
     contract.setProvider(web3.currentProvider);
 

@@ -1,11 +1,11 @@
 {
-  "CONTRACT_ADDRESS": "0x8ddfB8AE536dA9d8565F9a2E1136724505800993",
+  "CONTRACT_ADDRESS": "0x713B0e5EC5554443E432D1BB84fdEA1153BD887d",
   "NETWORK": {
-    "NAME": "Etherium Rinkeby",
+    "NAME": "Etherium",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
-  "NETWORK_ID_WALLET": 4,
+  "NETWORK_ID_WALLET": 1,
   "NFT_NAME": "Mastermind NFT",
   "SYMBOL": "MM",
   "MAX_SUPPLY": 333 ,
