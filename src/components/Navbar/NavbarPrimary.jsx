@@ -77,20 +77,6 @@ export default function NavbarPrimary() {
                 {/* button on small */}
                 <div className="flex items-center space-x-1">
                   <a
-                    href="https://t.me/MastermindGroup.NFT"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition transform hover:scale-110 active:scale-110 focus:scale-110 duration-200"
-                  >
-                    <span className="block h-9 w-9">
-                      <img
-                        className="block h-100 w-100"
-                        src="/assets/images/icon-4.png"
-                        alt=".."
-                      />
-                    </span>
-                  </a>
-                  <a
                     href="https://www.twitter.com/MMGroupNFT"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -158,20 +144,6 @@ export default function NavbarPrimary() {
              
               <Disclosure.Button as="div">
                 <div className="mt-3 flex items-center space-x-1">
-                  <a
-                    href="https://t.me/MastermindGroup.NFT"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition transform hover:scale-110 active:scale-110 focus:scale-110 duration-200"
-                  >
-                    <span className="block h-10 w-10">
-                      <img
-                        className="block h-100 w-100"
-                        src="/assets/images/icon-4.png"
-                        alt=".."
-                      />
-                    </span>
-                  </a>
                   <a
                     href="https://www.twitter.com/MMGroupNFT"
                     target="_blank"
