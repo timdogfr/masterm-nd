@@ -83,7 +83,7 @@ function Home() {
     setLoading(true);
     // setDisable(true);
     blockchain.smartContract.methods
-      .mint()
+      .mint(1)
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
@@ -156,7 +156,7 @@ function Home() {
     const abi = await abiResponse.json();
     var contract = new Contract(
       abi,
-      "0x713B0e5EC5554443E432D1BB84fdEA1153BD887d"
+      "0xeE5b12bF5eD4B03864c4ec573AE6321573b45152"
     );
     contract.setProvider(web3.currentProvider);
 
